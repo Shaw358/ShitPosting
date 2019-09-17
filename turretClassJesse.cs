@@ -12,8 +12,9 @@ public class turretClass : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        enemies = GameObject.FindGameObjectsWithTag("Enemies");
+        enemies = GameObject.FindGameObjectsWithTag("Enemy");
         //Mystats = new [hier de class naam]
+        Debug.Log(enemies);
     }
 
     // Update is called once per frame
